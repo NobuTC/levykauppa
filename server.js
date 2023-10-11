@@ -6,6 +6,7 @@ const routes = require("./api/routes");
 
 // Middleware to parse JSON data
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Use the routes in your Express app
 app.use("/", routes);
