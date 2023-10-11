@@ -17,8 +17,9 @@
   },
   "scripts": {
     "start-client": "react-scripts  --openssl-legacy-provider start",
+    "start-server": "node server.js",
     "start": "concurrently \"nodemon server.js\" \"npm run start-client\"",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
