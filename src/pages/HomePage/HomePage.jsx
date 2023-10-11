@@ -11,7 +11,7 @@ function HomePage() {
           <Link to="/haku/nike">Search page</Link>
         </li>
         <li>
-          <Link to="/tavara/123">Product page</Link>
+          <Link to="/album/1">Album page</Link>
         </li>
         <li>
           <Link to="/kategoria/1">Category page</Link>
@@ -21,6 +21,9 @@ function HomePage() {
         </li>
         <li>
           <Link to="/maksu">Checkout page</Link>
+        </li>
+        <li>
+          <Link to="/varasto">Add Album CD</Link>
         </li>
       </ul>
     </div>

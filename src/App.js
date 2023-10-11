@@ -8,6 +8,7 @@ import CartPage from "./pages/CartPage/CartPage";
 import CategoryPage from "./pages/CategoryPage/CategoryPage";
 import ProductPage from "./pages/ProductPage/ProductPage";
 import CheckoutPage from "./pages/CheckoutPage/CheckoutPage";
+import StoragePage from "./pages/StorePage/StorePage";
 
 const router = createBrowserRouter([
   {
@@ -31,8 +32,12 @@ const router = createBrowserRouter([
     element: <CategoryPage />,
   },
   {
-    path: "/tavara/:productId",
+    path: "/album/:albumId",
     element: <ProductPage />,
+  },
+  {
+    path: "/varasto",
+    element: <StoragePage />,
   },
 ]);
 
